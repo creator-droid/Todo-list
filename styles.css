@@ -47,15 +47,15 @@ body {
 .landing {
   text-align: left;
   padding-right: 20px;
-  margin-right: 50px;
-  margin-left: 20px;
+  margin-right: 90px;
+  margin-left: 10px;
   margin-top: 10px;
   max-width: 400px;
 }
 .landing h1 {
   color: black;
   font-weight: bold;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 .landing p {
   color: black;
