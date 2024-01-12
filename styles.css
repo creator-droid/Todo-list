@@ -1,10 +1,9 @@
 :root {
-  --primary:black;
+  --primary: black;
   --business: #3a82ee;
   --personal: var(--primary);
   --light: #fffef5;
   --grey: #888;
-  --dark: #313154;
   --danger: #ff5b57;
 
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -34,7 +33,7 @@ button {
 
 body {
   background: var(--light);
-  color: var(--dark);
+  color: var(--primary);
 }
 .container {
   display: flex;
@@ -48,7 +47,7 @@ body {
 .landing {
   text-align: left;
   padding-right: 20px;
-  margin-right: 90px;
+  margin-right: 160px;
   margin-left: 5px;
   margin-top: 10px;
   max-width: 400px;
@@ -197,7 +196,7 @@ input:checked ~ .bubble::after {
 }
 
 .create-todo .options label div {
-  color: var(--dark);
+  color: var(--primary);
   font-size: 1.125rem;
   margin-top: 1rem;
 }
