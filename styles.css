@@ -42,6 +42,7 @@ body {
   justify-content: center;
   height: 100vh;
   background-color: var(--light);
+  margin-top: 5vh;
 }
 
 .landing {
@@ -55,7 +56,7 @@ body {
 .landing h1 {
   color: black;
   font-weight: bold;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .landing p {
   color: black;
