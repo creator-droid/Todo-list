@@ -36,7 +36,13 @@ body {
   background: var(--light);
   color: var(--dark);
 }
-
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
 section {
   margin-top: 2rem;
   margin-bottom: 2rem;
