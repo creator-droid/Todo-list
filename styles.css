@@ -373,6 +373,6 @@ input:checked ~ .bubble::after {
   .image {
     text-align: right;
     margin-left: 20px;
-    margin-top: 0; /* No space between link and image */
+    margin-top: 10px;
   }
 }
