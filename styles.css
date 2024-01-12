@@ -43,6 +43,11 @@ body {
   align-content: center;
   justify-content: space-between;
 }
+.container .image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
 section {
   margin-top: 2rem;
   margin-bottom: 2rem;
