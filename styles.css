@@ -280,18 +280,55 @@ input:checked ~ .bubble::after {
   color: var(--grey);
 }
 
+/* ... (previous styles) */
+
+/* Media queries for responsiveness */
 @media only screen and (max-width: 600px) {
   .container {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
   }
 
   .landing {
+    max-width: 100%;
     margin: 0;
+    padding: 0 20px;
+    text-align: center;
   }
 
   .image {
-    margin-left: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .create-todo input[type="text"],
+  .create-todo .options label {
+    width: 100%;
+  }
+
+  .create-todo .options {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .todo-item {
+    flex-direction: column;
+  }
+
+  .todo-item label {
+    margin-bottom: 0.5rem;
+  }
+
+  .todo-item .actions {
+    flex-direction: column;
+  }
+
+  .create-todo input[type="submit"],
+  .todo-item .actions button {
+    width: 100%;
   }
 }
