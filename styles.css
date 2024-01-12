@@ -38,19 +38,23 @@ body {
 }
 .container {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  align-content: center;
-  justify-content: space-between;
+  justify-content: center;
 }
+
+.landing {
+  text-align: left;
+  padding-right: 20px;
+}
+
 .image {
   text-align: right;
 }
-
 .image img {
   max-width: 200px;
   height: auto;
 }
+
 section {
   margin-top: 2rem;
   margin-bottom: 2rem;
