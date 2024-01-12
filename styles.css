@@ -43,6 +43,10 @@ body {
   align-content: center;
   justify-content: space-between;
 }
+.image {
+  text-align: right;
+}
+
 .image img {
   max-width: 200px;
   height: auto;
