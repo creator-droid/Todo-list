@@ -2,7 +2,7 @@
   --primary: #ea40a4;
   --business: #3a82ee;
   --personal: var(--primary);
-  --light: #eee;
+  --light: #fffef5;
   --grey: #888;
   --dark: #313154;
   --danger: #ff5b57;
@@ -19,7 +19,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 input:not([type="radio"]):not([type="checkbox"]),
@@ -41,6 +41,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: var(--light);
 }
 
 .landing {
@@ -48,12 +49,28 @@ body {
   padding-right: 20px;
   margin-right: 20px;
 }
+.landing h1 {
+  color: black;
+  font-weight: 700px;
+}
+.landing p {
+  color: black;
+  font-weight: 100px;
+}
 
+.landing a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
 .image {
   text-align: right;
 }
 .image img {
-  max-width: 400px;
+  max-width: 550px;
   height: auto;
 }
 
