@@ -42,7 +42,7 @@ body {
   justify-content: center;
   height: 100vh;
   background-color: var(--light);
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 
 .landing {
