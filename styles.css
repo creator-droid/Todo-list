@@ -333,3 +333,25 @@ input:checked ~ .bubble::after {
     width: 100%;
   }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* Styles for iPad Mini and iPad Air */
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .landing {
+    max-width: 50%;
+    margin: 0;
+    padding: 0 20px;
+    text-align: left;
+  }
+
+  .image {
+    text-align: right;
+    margin-left: 20px;
+    margin-top: 0; /* No space between link and image */
+  }
+}
