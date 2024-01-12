@@ -48,6 +48,8 @@ body {
   text-align: left;
   padding-right: 20px;
   margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .landing h1 {
   color: black;
@@ -61,16 +63,21 @@ body {
 .landing a {
   display: inline-block;
   padding: 10px 20px;
+  margin-top: 10px;
   background-color: black;
   color: white;
   text-decoration: none;
   border-radius: 5px;
 }
+.landing h1,
+.landing p {
+  margin-bottom: 10px;
+}
 .image {
   text-align: right;
 }
 .image img {
-  max-width: 550px;
+  max-width: 500px;
   height: auto;
 }
 
